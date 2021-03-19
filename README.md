@@ -14,7 +14,7 @@ Output reports the following statistics:
 To add details, consult the PRAW documentation for submissions/comments and modify the LinkPost and/or LinkComment class init methods and the instantiation calls in the global method, scrape_links().
 <br>
 <br>
-**usage: reddit_link_scraper.py [-h] -s list,of,subs -d list,of,domains -o client_id,client_secret,password,username,user_agent [-p PATH] /path/to/save/output/ [-l LIMIT] #of posts to search [--new] [--controversial] [--hot] [--top] [--quiet] [--nocomments]**
+<pre>usage: reddit_link_scraper.py [-h] -s list,of,subs -d list,of,domains -o client_id,client_secret,password,username,user_agent [-p PATH] /path/to/save/output/ [-l LIMIT] #of posts to search [--new] [--controversial] [--hot] [--top] [--quiet] [--nocomments]
 
 _A script for grabbing links from Reddit posts/comments._
 
@@ -24,7 +24,7 @@ optional arguments:
   
   -s SUBS, --subs   Subreddit(s) to target. If multiple, separate by comma/no spaces.
   
-  -d DOMAINS, --domains   DOMAINS Domains to collect URLs from
+  -d DOMAINS, --domains   DOMAINS Domains to collect URLs from. If multiple, separate by comma/no spaces.
                         
   -o OAUTH, --oauth 
                           OAuth information, either comma separated values in order (client_id, client_secret, password, username, user_agent) or a path to a key/value file in YAML format.
@@ -32,7 +32,7 @@ optional arguments:
   -p PATH, --path PATH    Path to save output files (Posts_[DATETIME].csv and Comments_[DATETIME].csv). If not is specified, uses source directory.
   
   -l LIMIT, --limit
-                          Maximum number of posts to search (default = 1000, max = 1000)
+                          Maximum number of posts to search (default = 1000; max = 1000)
                           
   -n, --new               Search new posts.
   
@@ -44,5 +44,5 @@ optional arguments:
   
   -q, --quiet             Supress progress reports until jobs are complete.
   
-  -x, --nocomments        Do not collect post comments (helps with Reddit's rate limit if you do not need them.)
+  -x, --nocomments        Do not collect post comments (helps with Reddit's rate limit if you do not need them.)</pre>
 
