@@ -33,8 +33,7 @@ optional arguments:
                         
   -p PATH, --path PATH    Path to save output files (Posts_[DATETIME].csv and Comments_[DATETIME].csv). If not is specified, uses source directory.
   
-  -l LIMIT, --limit
-                          Maximum number of posts to search (default = 1000; max = 1000)
+  -l LIMIT, --limit       Maximum number of posts to search (default = 1000; max = 1000)
                           
   -n, --new               Search new posts.
   
