@@ -77,7 +77,7 @@ parser.add_argument("-t","--top", type=str, required=False, help="Search top pos
 parser.add_argument("--hot", action="store_true", help="Search hot posts.")
 parser.add_argument("-n","--new", action="store_true", help="Search new posts.")
 parser.add_argument("-c","--controversial", action="store_true", help="Search controversial posts.")
-parser.add_argument("-q","--quiet",action="store_true", help="Supress progress reports until jobs are complete.")
+parser.add_argument("-q","--quiet",action="store_true", help="Suppress progress reports until jobs are complete.")
 parser.add_argument("-x","--nocomments", action="store_true", help="Do not collect post comments (helps with Reddit's rate limit if you do not need them.)")
 args = parser.parse_args()
 

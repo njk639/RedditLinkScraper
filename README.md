@@ -48,7 +48,7 @@ optional arguments:
   
   -t TOP, --top TOP       Search top posts. Requires a time: hour, day, week, month, year, all.
   
-  -q, --quiet             Supress progress reports until jobs are complete.
+  -q, --quiet             Suppress progress reports until jobs are complete.
   
   -x, --nocomments        Do not collect post comments (helps with Reddit's rate limit if you do not need them.)</pre>
 
