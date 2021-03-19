@@ -31,11 +31,12 @@ class LinkPost:
 
 class LinkComment:
     '''Stores select information about comments.'''
-    def __init__(self, comment_id, post_id, body, sub, post_title, post_flair):
+    def __init__(self, comment_id, post_id, body, score, sub, post_title, post_flair):
         self.comment_id = comment_id
         self.post_id = post_id
         self.body = body
         self.sub = sub
+        self.score = score
         self.post_title = post_title
         self.post_flair = post_flair
 
@@ -139,6 +140,7 @@ def scrape_links(job,verbose=verbose):
                                 comment_id=cmt.id,
                                 post_id=post.id,
                                 body=body,
+                                score=cmt.score,
                                 sub=sub.display_name,
                                 post_title=post.title,
                                 post_flair=post.link_flair_text)
