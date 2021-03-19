@@ -12,7 +12,6 @@ Output reports the following statistics:
 * Comments: comment ID, body (including Markdown), subreddit, score parent post title/ID
 
 To add details, consult the PRAW documentation for submissions/comments and modify the LinkPost and/or LinkComment class init methods and the instantiation calls in the global method, scrape_links().
-
 <br>
 <br>
 **usage: reddit_link_scraper.py [-h] -s list,of,subs -d list,of,domains -o client_id,client_secret,password,username,user_agent [-p PATH] /path/to/save/output/ [-l LIMIT] #of posts to search [--new] [--controversial] [--hot] [--top] [--quiet] [--nocomments]**
