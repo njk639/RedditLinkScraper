@@ -5,9 +5,10 @@ By default, it will search for comments in any of the returned posts that contai
 
 Note: Reddit enforces rate limits that mean this script will likely scan between 80-100 posts per minute. Authentication can be provided as a .yaml config file (see example) or as a list of comma-separated values at the command-line 
 
-Written for Python 3 (3.6 required due to liberal use of fstrings). **Third party modules needed**: praw, ruamel.yaml (can be removed if you do not want to use YAML, comment out 5, 13, 189-191), and pandas. Default modules used: pathlib, time, datetime, argparse, sys, concurrent.futures
+This script opens multiple PRAW instances and makes use of the Python multi-threading module to gain a small performance boost. In my initial testing, this improved post throughput when comment search was left on by approximately 33% from 65 posts/min to 85 posts/min when searching all metrics (hot/top/new/controversial) with a 1000 item limit across two subreddits and two domains (approx 8K posts and tens of thousands of comments).
+It also attempts to ensure that it minimizes the number of comments it retrieves from duplicate posts (i.e. in Top and Hot). It attempts to do this across threads but may not always succeed.
 
-This script opens multiple PRAW instances and makes use of the Python multi-threading module to gain a small performance boost. In my initial testing, this improved post throughput when comment search was left on by approximately 33% from 65 posts/min to 85 posts/min when searching all metrics (hot/top/new/controversial with a 1000 item limit across two subreddits and two domains.
+Written for Python 3 (3.6 required due to liberal use of fstrings). **Third party modules needed**: praw, ruamel.yaml (can be removed if you do not want to use YAML, comment out 5, 13, 189-191), and pandas. Default modules used: pathlib, time, datetime, argparse, sys, concurrent.futures
 <br>
 <br>
 Output reports the following statistics:
