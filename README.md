@@ -5,7 +5,7 @@ To use, run in a terminal window: python ./path_to_source/reddit_link_scraper.py
 
 Note: Reddit enforces rate limits that mean this script will likely scan between 80-100 posts per minute. Authentication can be provided as a .yaml config file (see example) or as a list of comma-separated values at the command-line 
 
-Written for Python 3 (3.6 required due to liberal use of fstrings). THird party modules needed: praw, ruamel.yaml (can be removed if you do not want to use YAML, comment out 5, 13, 189-191), and pandas. Default modules used: pathlib, time, datetime, argparse, sys, concurrent.futures
+Written for Python 3 (3.6 required due to liberal use of fstrings). **Third party modules needed**: praw, ruamel.yaml (can be removed if you do not want to use YAML, comment out 5, 13, 189-191), and pandas. Default modules used: pathlib, time, datetime, argparse, sys, concurrent.futures
 <br>
 <br>
 Output reports the following statistics:
