@@ -1,0 +1,103 @@
+Loading subreddits: UnearthedArcana, DnDHomebrew
+Checking for urls from the following domains: homebrewery.naturalcrit.com, gmbinder.com
+
+Checking /r/UnearthedArcana for top posts and their top-level comments...
+Scanning /r/UnearthedArcana...25% complete
+250 top posts from /r/UnearthedArcana checked in 313.74642276763916 seconds...
+2 posts and 136 top-level comments include links from valid domains
+
+Scanning /r/UnearthedArcana...50% complete
+500 top posts from /r/UnearthedArcana checked in 633.4752423763275 seconds...
+3 posts and 328 top-level comments include links from valid domains
+
+Scanning /r/UnearthedArcana...75% complete
+750 top posts from /r/UnearthedArcana checked in 965.8474943637848 seconds...
+8 posts and 455 top-level comments include links from valid domains
+
+Scanning /r/UnearthedArcana...100% complete in 0:20:58.600442!
+999 top posts from /r/UnearthedArcana checked in 1258.6004619598389 seconds...
+13 posts and 576 top-level comments include links from valid domains
+
+Checking /r/UnearthedArcana for new posts and their top-level comments...
+Scanning /r/UnearthedArcana...25% complete
+250 newest posts from /r/UnearthedArcana checked in 227.76408648490906 seconds...
+18 posts and 76 top-level comments include links from valid domains
+
+Scanning /r/UnearthedArcana...50% complete
+500 newest  posts from /r/UnearthedArcana checked in 457.58608746528625 seconds...
+34 posts and 149 top-level comments include links from valid domains
+
+Scanning /r/UnearthedArcana...75% complete
+750 newest  posts from /r/UnearthedArcana checked in 690.3263282775879 seconds...
+53 posts and 213 top-level comments include links from valid domains
+
+Scanning /r/UnearthedArcana...100% complete in 0:15:21.409306!
+998 newest top posts from /r/UnearthedArcana checked in 921.4093828201294 seconds...
+64 posts and 282 top-level comments include links from valid domains
+
+Checking /r/DnDHomebrew for top posts and their top-level comments...
+Scanning /r/DnDHomebrew...25% complete
+250 top posts from /r/DnDHomebrew checked in 288.4642231464386 seconds...
+0 posts and 56 top-level comments include links from valid domains
+
+Scanning /r/DnDHomebrew...50% complete
+500 top posts from /r/DnDHomebrew checked in 563.3579351902008 seconds...
+0 posts and 116 top-level comments include links from valid domains
+
+Scanning /r/DnDHomebrew...75% complete
+750 top posts from /r/DnDHomebrew checked in 829.9041574001312 seconds...
+0 posts and 159 top-level comments include links from valid domains
+
+Scanning /r/DnDHomebrew...100% complete in 0:18:04.163007!
+991 top posts from /r/DnDHomebrew checked in 1084.1630272865295 seconds...
+0 posts and 197 top-level comments include links from valid domains
+
+Checking /r/DnDHomebrew for new posts and their top-level comments...
+Scanning /r/DnDHomebrew...25% complete
+250 newest posts from /r/DnDHomebrew checked in 187.81076884269714 seconds...
+2 posts and 15 top-level comments include links from valid domains
+
+Scanning /r/DnDHomebrew...50% complete
+500 newest  posts from /r/DnDHomebrew checked in 376.79947900772095 seconds...
+5 posts and 32 top-level comments include links from valid domains
+
+Scanning /r/DnDHomebrew...75% complete
+750 newest  posts from /r/DnDHomebrew checked in 557.8650989532471 seconds...
+12 posts and 45 top-level comments include links from valid domains
+
+Scanning /r/DnDHomebrew...100% complete in 0:12:23.943294!
+993 newest top posts from /r/DnDHomebrew checked in 743.9433512687683 seconds...
+16 posts and 61 top-level comments include links from valid domains
+
+Searching for and removing duplicate posts...
+0 duplicates removed
+Showing first 10 posts...
+       id                                              title                                                url              sub   rank  score       flair  upvote_ratio
+0  eh6w51  Elder Evils 5e - a total conversion of the apo...  https://www.gmbinder.com/share/-LOB2b05vCsVZ_5...  UnearthedArcana  144.0   1868  Compendium          0.99
+1  hda27g  Otherworldly Patron: My Dad - A Very Special P...  https://www.gmbinder.com/share/-M3jU4cQZ23cHza...  UnearthedArcana  155.0   1836    Subclass          0.98
+2  e8rbvz  Kibbles' Alternate Artificer v2.0.2 - Forge ar...  https://www.gmbinder.com/share/-LAEn6ZdC6lYUKh...  UnearthedArcana  340.0   1436       Class          0.98
+3  foxtlj  Saw a joke post about mistaking half-orc for h...  https://homebrewery.naturalcrit.com/share/r4QV...  UnearthedArcana  538.0   1204        Race          0.99
+4  cal77v  Kibbles' Alternate Artificer v2.0 - Forge armo...  https://www.gmbinder.com/share/-LAEn6ZdC6lYUKh...  UnearthedArcana  634.0   1116       Class          0.98
+5  bc0osd  Kibbles Alternate Artificer v1.7 - Build your ...  https://www.gmbinder.com/share/-LAEn6ZdC6lYUKh...  UnearthedArcana  667.0   1088       Class          0.98
+6  gujtzs  I'd love feedback on my new stone-age campaign...  https://homebrewery.naturalcrit.com/share/RZW6...  UnearthedArcana  686.0   1073       World          0.99
+7  a6wiho  5e - Revised Artificer v1.6, Cannonsmith, Gadg...  https://www.gmbinder.com/share/-LAEn6ZdC6lYUKh...  UnearthedArcana  720.0   1040       Class          0.98
+8  81xjef  Every subclass in Xanathar's Guide to Everythi...  https://www.gmbinder.com/share/-L6GUqupZlhPJcu...  UnearthedArcana  761.0   1012     Monster          0.98
+9  g34xd0  Kibbles' Alternate Artificer v2.0.3 - Forge ar...  https://www.gmbinder.com/share/-LAEn6ZdC6lYUKh...  UnearthedArcana  828.0    965       Class          0.98
+Saving posts to Posts.csv
+
+Searching for and removing duplicate comments...
+53 duplicates removed.
+Showing first 10 comments...
+        id                                               body              sub                                         post_title post_flair
+0  glmqu7v  https://www.gmbinder.com/share/-LbZ8uYY8e8ri7D...  UnearthedArcana  Normalise - A non-violent way to permanently d...      Spell
+1  eznv7kq  Sorry for the delay but here's another creatur...  UnearthedArcana                                             Koibra    Monster
+2  gbpeq2s  This feat might be a bit too real...good luck ...  UnearthedArcana              Insomniac | A Feat for the Weary Ones       Feat
+3  fatopkc  Sorry friend.  I commend the work you have don...  UnearthedArcana  Unoficial template for creating your own D&D 5...   Resource
+4  fuynxwm  How do you like [this](https://homebrewery.nat...  UnearthedArcana  Tumbleweed Cantrip - For a bit of flavour in W...      Spell
+5  g63jbfh  I know some of y'all like making Among Us OCs,...  UnearthedArcana                        Impostor Race from Among Us       Race
+6  f9q2qnf  This would probably go really well with a [wou...  UnearthedArcana  Exhausted Spellcasting | Sometimes you don't h...   Mechanic
+7  f9s9kwa  https://www.gmbinder.com/share/-Lv9-ProfuzOgAP...  UnearthedArcana  Exhausted Spellcasting | Sometimes you don't h...   Mechanic
+8  gkox23c  Hey i've applied the changes, thanks for the p...  UnearthedArcana  Royal Incinerator - Turn your muder hobos into...    Monster
+9  g0jy9s3  ***There's no place like home!***\n\nHiya, fel...  UnearthedArcana  Caravaneer | Build a walking home base with th...   Subclass
+Saving comments to Comments.csv
+
